@@ -13,8 +13,12 @@ import json
 import os
 import sys
 import time
-
 import tensorflow as tf
+
+ # remove depreation warnings 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # remove depreation warnings 
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) 
+
 from tensorflow.python.client import timeline
 
 from wavenet import WaveNetModel, AudioReader, optimizer_factory
@@ -275,7 +279,8 @@ def main():
 
     try:
         saved_global_step = load(saver, sess, restore_from)
-        if is_overwritten_training or saved_global_step is None:
+        #if is_overwritten_training or saved_global_step is None:
+        if saved_global_step is None:
             # The first training step will be saved_global_step + 1,
             # therefore we put -1 here for new or overwritten trainings.
             saved_global_step = -1
