@@ -1,6 +1,6 @@
 # A Colab implementation of the TensorFlow implementation of DeepMind's WaveNet paper
 
-This repository provides a Colab implementation of the Tensorflow Wavenet implementation by [@ibab](https://github.com/ibab). The notebooks with the instructions for training and generation can be found under the folder `notebooks/', [here](https://github.com/pelinski/colab-tensorflow-wavenet/tree/master/notebooks) or directly here:
+This repository provides a Colab implementation of the Tensorflow Wavenet implementation by [@ibab](https://github.com/ibab). The notebooks with the instructions for training and generation can be found under the folder `notebooks/`, [here](https://github.com/pelinski/colab-tensorflow-wavenet/tree/master/notebooks) or directly here:
 * Training: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pelinski/colab-tensorflow-wavenet/blob/master/notebooks/tensorflow_wavenet_train.ipynb)
 * Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pelinski/colab-tensorflow-wavenet/blob/master/notebooks/tensorflow_wavenet_generate.ipynb)
 
