@@ -12,6 +12,11 @@ import tensorflow as tf
 
 from wavenet import WaveNetModel, mu_law_decode, mu_law_encode, audio_reader
 
+ # remove depreation warnings 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # remove depreation warnings 
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR) 
+
+
 SAMPLES = 16000
 TEMPERATURE = 1.0
 LOGDIR = './logdir'
