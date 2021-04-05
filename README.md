@@ -1,6 +1,12 @@
-# A TensorFlow implementation of DeepMind's WaveNet paper
+# A Colab implementation of the TensorFlow implementation of DeepMind's WaveNet paper
 
-[![Build Status](https://travis-ci.org/ibab/tensorflow-wavenet.svg?branch=master)](https://travis-ci.org/ibab/tensorflow-wavenet)
+This repository provides a Colab implementation of the Tensorflow Wavenet implementation by [@ibab](https://github.com/ibab). The notebooks with the instructions for training and generation can be found under the folder `notebooks/', [here](https://github.com/pelinski/colab-tensorflow-wavenet/tree/master/notebooks) or directly here:
+* Training: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pelinski/colab-tensorflow-wavenet/blob/master/notebooks/tensorflow_wavenet_train.ipynb]
+* Generation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pelinski/colab-tensorflow-wavenet/blob/master/notebooks/tensorflow_wavenet_generate.ipynb]
+
+The notebooks were implemented in collaboration with Nicolás Schmidt [@nschmidtg](https://github.com/nschmidtg).
+
+--- 
 
 This is a TensorFlow implementation of the [WaveNet generative neural
 network architecture](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) for audio generation.
