@@ -8,7 +8,7 @@ I used the album [Music For Airports](https://www.youtube.com/watch?v=vNwYtllyt3
 
 To generate 16000 (1 second, 16kHz) samples from this pre-trained model:
 
-``` python ../generate.py --wav_out_path=brian_eno_generated.wav --samples=16000 brian-eno-2-hours-123122-steps/model.ckpt-123122 ```
+``` cd .. && python generate.py --wav_out_path=pretrained_models/brian_eno_generated.wav --samples=16000 pretrained_models/brian-eno-2-hours-123122-steps/model.ckpt-123122 ```
 
 ## Rhodes keyboard
 
