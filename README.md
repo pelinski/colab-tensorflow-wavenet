@@ -6,7 +6,7 @@ This repository provides a Colab implementation of the Tensorflow Wavenet implem
 
 The notebooks were implemented in collaboration with Nicolás Schmidt [@nschmidtg](https://github.com/nschmidtg).
 
-It also provides 3 pre-trained models to sample from with different music styles: [Ambient, Pop and Dubstep](pretrained-models/)
+It also provides 3 pre-trained models to sample from with different music styles: [Ambient, Pop and Dubstep](https://github.com/pelinski/colab-tensorflow-wavenet/tree/master/pretrained_models)
 
 
 --- 
